@@ -13,7 +13,7 @@ script:
   - npm run validate
 after_success:
   - npm run report-coverage
-  - npm run release
+  # - npm run release
 # jobs:
 #   include:
 #     # Define the release stage that runs semantic-release

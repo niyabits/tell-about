@@ -1,6 +1,6 @@
 {
   "name": "tell-about",
-  "version": "0.0.0-development",
+  "version": "1.2.0",
   "description": "A CLI Tool that help you know about npm pacakges right in the command line.",
   "main": "dist/index.js",
   "bin": {
