@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/yashguptaz/tell-about.svg?branch=master)](https://travis-ci.org/yashguptaz/tell-about)
+[![codecov](https://codecov.io/gh/yashguptaz/tell-about/branch/master/graph/badge.svg)](https://codecov.io/gh/yashguptaz/tell-about)
+
 # tell-about
 
 **tell-about** is a npm package that provides you with useful information about any npm package you want. 
