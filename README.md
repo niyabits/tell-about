@@ -10,11 +10,10 @@ And there are many other things that can also be done.
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
-- [Code Organization](code-organization)
-- [Setting Up the Project Locally]()
-- [Submitting a Pull Request]() 
 
 ## Prerequisites
 
