@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/yashguptaz/tell-about.svg?branch=master)](https://travis-ci.org/yashguptaz/tell-about)
 # tell-about
 
 **tell-about** is a npm package that provides you with useful information about any npm package you want. 
@@ -6,7 +7,7 @@ You can use it to quickly know the GitHub repo and Website of the package and vi
 
 You can use it to quickly know when was the last commit in the package's repo and how many issues there are present, allowing you to quickly judge how good the project is.
 
-And there are many other things that can also be done.
+And there are many other things that an also be done.
 
 ## Table of Contents
 
