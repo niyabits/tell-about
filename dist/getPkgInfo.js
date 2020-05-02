@@ -19,6 +19,7 @@ var getPackageInfo = function getPackageInfo(packageId) {
     } else {
       var metadata = data.collected.metadata;
       var github = data.collected.github;
+      var npm = data.collected.npm;
 
 
       log();
@@ -37,6 +38,8 @@ var getPackageInfo = function getPackageInfo(packageId) {
       log('\t' + title('License') + ': ' + metadata.license);
       log('\t' + title('Latest Release was on') + ': ' + parseISOString(metadata.releases[0].from));
       log();
+      log('\t' + title('Download count') + ': ' + numberWithCommas(npm.downloads[0].count));
+      log('\t' + title('Download count') + ': ' + numberWithCommas(npm.downloads[0].count));
       log();
 
       return true;
