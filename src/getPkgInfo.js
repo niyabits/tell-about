@@ -64,11 +64,6 @@ const getPackageInfo = (packageId) => {
             npm.downloads[0].count
           )}`
         );
-        log(
-          `\t${title('Download count')}: ${numberWithCommas(
-            npm.downloads[0].count
-          )}`
-        );
         log();
 
         return true;
