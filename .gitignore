@@ -1,3 +1,7 @@
+.nyc_output/
+dist/
+*.tgz
+
 # Logs
 logs
 *.log
