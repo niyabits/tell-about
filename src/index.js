@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const {prompt} = require('enquirer');
 const getPackageInfo = require('./getPkgInfo');
+require('regenerator-runtime/runtime');
 
 const log = console.log;
 

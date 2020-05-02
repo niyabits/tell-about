@@ -29,7 +29,8 @@
     "babel-preset-env": "1.7.0",
     "chalk": "4.0.0",
     "enquirer": "2.3.5",
-    "node-fetch": "2.6.0"
+    "node-fetch": "2.6.0",
+    "regenerator-runtime": "0.13.5"
   },
   "devDependencies": {
     "chai": "4.2.0",

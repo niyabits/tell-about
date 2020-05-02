@@ -7,6 +7,7 @@ var _require = require('enquirer'),
     prompt = _require.prompt;
 
 var getPackageInfo = require('./getPkgInfo');
+require('regenerator-runtime/runtime');
 
 var log = console.log;
 
