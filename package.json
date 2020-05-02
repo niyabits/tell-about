@@ -11,6 +11,7 @@
     "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "test": "nyc mocha src/index.test.js",
     "watch:test": "mocha --watch src/index.test.js",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "lint": "eslint .",
     "validate": "npm-run-all --parallel lint test build"
   },
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "chai": "4.2.0",
+    "codecov": "3.6.5",
     "eslint": "6.8.0",
     "ghooks": "2.0.4",
     "mocha": "7.1.2",
