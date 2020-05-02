@@ -17,6 +17,7 @@ const getPackageInfo = (packageId) => {
       } else {
         const {metadata} = data.collected;
         const {github} = data.collected;
+        const {npm} = data.collected;
 
         log();
         log('\t' + chalk.bold.cyan.underline(metadata.name));
@@ -58,6 +59,16 @@ const getPackageInfo = (packageId) => {
           )}`
         );
         log();
+        log(
+          `\t${title('Download count')}: ${numberWithCommas(
+            npm.downloads[0].count
+          )}`
+        );
+        log(
+          `\t${title('Download count')}: ${numberWithCommas(
+            npm.downloads[0].count
+          )}`
+        );
         log();
 
         return true;
