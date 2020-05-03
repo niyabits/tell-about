@@ -24,7 +24,7 @@ describe('ISO Strings converting to Date strings correctly', () => {
 
   it('Should return an empty string.', () => {
     expect(returnsString(convToDateStr(undefined))).to.be.true;
-  })
+  });
 });
 
 function returnsString(ISOStr) {
