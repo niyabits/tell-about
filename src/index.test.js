@@ -21,6 +21,10 @@ describe('ISO Strings converting to Date strings correctly', () => {
   it('Should return a date string.', () => {
     expect(returnsString(convToDateStr('2020-03-19T19:53:13.309Z'))).to.be.true;
   });
+
+  it('Should return an empty string.', () => {
+    expect(returnsString(convToDateStr(undefined))).to.be.true;
+  })
 });
 
 function returnsString(ISOStr) {
