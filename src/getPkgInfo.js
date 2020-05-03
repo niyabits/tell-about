@@ -76,6 +76,7 @@ const getPackageInfo = (packageId) => {
           mlog('Total Issues', github.issues.count);
         }
 
+        log();
         mlog('License', metadata.license);
         log('\n');
       }
