@@ -36,6 +36,8 @@ And there are many other things that an also be done.
 
 Development of tell-about happens in the open on GitHub, and we are grateful to the community for contributing bug fixes and improvements. Read below to learn how you can take part in improving tell-about.
 
+We have a publicly available [roadmap](https://www.notion.so/409bc8f606b740b4abc5eb3bcbd549df?v=51de545d10bb464291bc56e4dc30fc85) which you can refer to and know what to expect from us in future.
+
 ### [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 tell-about has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
