@@ -26,36 +26,36 @@ const getPackageInfo = (packageId) => {
         log();
         log('\t' + metadata.description);
         log(
-          `\n\t${title('GitHub Stars')}: ${numberWithCommas(github.starsCount)}`
+          `\n\t${title('GitHub Stars')}: ${numberWithCommas((github && github.starsCount) || '')}`
         );
         log(
           `\t${title('Latest Commit was on')}: ${parseISOString(
-            github.commits[0].to
+            (github && github.commits[0].to) || ''
           )}`
         );
         log(
           `\t${title('Open Issues')}: ${numberWithCommas(
-            github.issues.openCount
-          )}`
+            github && github.issues.openCount
+          ) || ''}`
         );
         log(
-          `\t${title('Total Issues')}: ${numberWithCommas(github.issues.count)}`
+          `\t${title('Total Issues')}: ${numberWithCommas(github && github.issues.count) || ''}`
         );
         log();
         log(
           `\t${title('GitHub')}: ${chalk.underline.cyan(
-            metadata.links.repository
+            metadata.links.repository || ''
           )}`
         );
         log(
           `\t${title('Homepage')}: ${chalk.underline.cyan(
-            metadata.links.homepage
+            metadata.links.homepage || ''
           )}`
         );
         log(`\t${title('License')}: ${metadata.license}`);
         log(
           `\t${title('Latest Release was on')}: ${parseISOString(
-            metadata.releases[0].from
+            metadata.releases[0].from || ''
           )}`
         );
         log();
