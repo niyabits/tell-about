@@ -82,7 +82,7 @@ const getPackageInfo = (packageId) => {
       }
     })
     .catch((err) => {
-      log('Soemthing went wrong! Check the log below:');
+      log('Something went wrong! Check the log below:');
       log(err);
     });
 };
